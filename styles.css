@@ -8,24 +8,12 @@ body {
 .header{
     height: 100px;
     font-size: 18px;
+    align-items: center;
 }
 h3{
     font-size: 24px;
     color: #F9faf8;
 }
-.header,
-.titleContainer {
-    color: #E5E7eb;
-    background-color: #1f2937;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding:0 90px;
-}
-.titleContainer {
-    flex:1;
-}
-
 .headerLinks{
     list-style: none;
     padding: 0;
@@ -33,4 +21,54 @@ h3{
     display: flex;
     gap: 30px;
 }
+.header,
+.titleContainer,
+.footer {
+    color: #E5E7eb;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    padding:0 90px;
+}
+.titleContainer {
+    flex:1;
+    display: flex;
+    padding: 60px 90px;
+    gap: 30px;
+}
+.website {
+    flex: 1;
+    
+}
+h1 {
+    margin:20px 0 0;
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    flex:1;
+}
+.websiteText {
+    font-size: 18px;
+    color: #e5e7eb;
+    flex: 1;
+}
+button {
+    background-color: #3882f6;
+    color: white;
+    padding: 4px 24px;
+    border-radius: 8px;
+    font-size: 18px;
+    margin-top: 14px;
+}
+
+.imgPlaceholder {
+    display: flex;
+    background-color: #39475a;
+    flex: 1;
+    max-height: 300px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
 
