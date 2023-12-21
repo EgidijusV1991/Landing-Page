@@ -27,12 +27,12 @@ h3{
     color: #E5E7eb;
     background-color: #1f2937;
     display: flex;
-    padding:0 90px;
+    padding:0 140px;
 }
 .titleContainer {
     flex:1;
     display: flex;
-    padding: 60px 90px;
+    padding: 60px 140px;
     gap: 30px;
     align-items: stretch;
     justify-content: space-between;
@@ -76,7 +76,7 @@ button {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 40px 90px;
+    padding: 40px 140px;
     justify-content: center;
 }
 
@@ -144,21 +144,22 @@ h2 {
 
 .signUpContainer{
     flex: 1;
-    padding: 45px 90px;
+    padding: 45px 140px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
 }
 
 .box {
+    flex: 1;
     color: white;
     background-color: #3882f6;
     border-radius: 8px;
+    min-height: 200px;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 800px;
-    height: 150px;
+   align-items: center;
+   justify-content: space-around;
+   padding: 0 90px;
 }
 
 h5 {
