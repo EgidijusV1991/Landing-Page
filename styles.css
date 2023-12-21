@@ -8,6 +8,7 @@ body {
     height: 100px;
     font-size: 18px;
     align-items: center;
+    justify-content: space-between;
 }
 h3{
     font-size: 24px;
@@ -26,7 +27,6 @@ h3{
     color: #E5E7eb;
     background-color: #1f2937;
     display: flex;
-    justify-content: space-between;
     padding:0 90px;
 }
 .titleContainer {
@@ -35,13 +35,14 @@ h3{
     padding: 60px 90px;
     gap: 30px;
     align-items: stretch;
+    justify-content: space-between;
 }
 .website {
     flex: 1;
     
 }
 h1 {
-    margin:20px 0 0;
+    margin:0;
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
@@ -64,7 +65,7 @@ button {
 .imgPlaceholder {
     display: flex;
     background-color: #39475a;
-    flex: 1;
+    flex: 1;`
     border-radius: 10px;
     align-items: center;
     justify-content: center;
@@ -76,6 +77,7 @@ button {
     flex-direction: column;
     text-align: center;
     padding: 40px 90px;
+    justify-content: center;
 }
 
 h2 {
@@ -116,6 +118,7 @@ h2 {
     background-color: #e5e7eb;
     display: flex;
     justify-content: center;
+    flex: 1;
 }
 .quoteContainer {
     display: flex;
@@ -136,6 +139,45 @@ h2 {
 
 .signUpContainer{
     flex: 1;
+    padding: 45px 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.box {
+    color: white;
+    background-color: #3882f6;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 800px;
+    height: 150px;
+}
+
+h5 {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+.signUpText {
+    font-size: 12px;
+}
+.b1 {
+    border: 0;
+}
+.b2{
+    border: 2px solid white;
+}
+
+.footer{
+    height: 100px;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+}
+
 
 
